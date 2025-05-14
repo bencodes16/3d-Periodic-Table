@@ -2,6 +2,8 @@
 
 This project is built using **Three.js** and **React** and allows users to interact with a fully 3D periodic table.
 
+**Try out here!!!** https://zippy-shortbread-2555d0.netlify.app/
+
 ## 🔬 Features
 
 - **3D Navigation**: Hover over and move around the periodic table in a 3D environment.
