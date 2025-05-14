@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme{
+  --font-CalSans: "Cal Sans", sans-serif;
+  --color-grey-100: rgb(97, 97, 97);
+  --color-grey-200: rgb(77, 76, 76);
+  --color-grey-300: rgb(53, 53, 53);
+  --color-grey-400: rgb(29, 29, 29);
+  --color-grey-500: rgb(15, 15, 15);
+}
+
+
+@layer utilities{
+  .headtext{
+    @apply font-CalSans text-4xl text-center;
+  }
+}
