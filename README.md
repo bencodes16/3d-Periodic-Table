@@ -7,7 +7,7 @@ This project is built using **Three.js** and **React** and allows users to inter
 - **3D Navigation**: Hover over and move around the periodic table in a 3D environment.
 - **Element Boxes**: Each element is represented by a reusable React component, positioned based on a dictionary of element data.
 - **Texture Atlas**: An edited image of the periodic table is used as a texture atlas. Only the top surface of each box is textured to optimize performance.
-- **Element Details**: Clicking on an element brings up a floating div with detailed information about it, sourced from the data dictionaries.
+- **Element Details**: Clicking on an element brings up a div with detailed information about it, sourced from the data dictionaries.
 - **Mini 3D Atom Viewer**: A mini canvas renders a simplified 3D model of the atom, displaying the nucleus and electron shells.
 - **Search Bar**: Users can search for an element by name or symbol. Matching elements will hover to help users find them quickly.
 
