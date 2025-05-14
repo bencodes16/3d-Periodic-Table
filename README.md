@@ -1,16 +1,47 @@
-# 3d Periodic Table
-This project made using Three JS and React allows the user to hover and move around a 3d periodic table. The element boxes are a react component, and I have a list of dicitonaires which I map over to create all the seperate boxes with each box having a set position on the page. I use a texture atlas which is simply an edited picture of a periodic table, which I use to allow each box to have the image of the element mapped onto its top surface. I don't map over all surfaces in order to save memory and space. When clicking on an element box, a div appears with information about the element, courtesy of the large array of dictionaries. Also I have a mini canvas on display which shows the 3d structure of the element, with its nucleus and electrons in their seperate electron shells. Another feature is a search bar at the top that allows the user to start searching for an element, and any elements that match start hovering, allowing for a user to quickly find an element.
+# 3D Periodic Table
 
+This project is built using **Three.js** and **React** and allows users to interact with a fully 3D periodic table.
 
-# React + Vite
+## 🔬 Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **3D Navigation**: Hover over and move around the periodic table in a 3D environment.
+- **Element Boxes**: Each element is represented by a reusable React component, positioned based on a dictionary of element data.
+- **Texture Atlas**: An edited image of the periodic table is used as a texture atlas. Only the top surface of each box is textured to optimize performance.
+- **Element Details**: Clicking on an element brings up a floating div with detailed information about it, sourced from the data dictionaries.
+- **Mini 3D Atom Viewer**: A mini canvas renders a simplified 3D model of the atom, displaying the nucleus and electron shells.
+- **Search Bar**: Users can search for an element by name or symbol. Matching elements will hover to help users find them quickly.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**
+- **Three.js**
+- **Vite**
+- **TailwindCSS**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# React + Vite Setup
+
+This project uses [Vite](https://vitejs.dev/) for fast development and HMR, with the React plugin enabled.
+
+## Plugins Used
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) – uses [Babel](https://babeljs.io/) for fast refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) – uses [SWC](https://swc.rs/) for faster compilation
+
+## 🔍 ESLint Configuration
+
+To extend this into a production-ready app, consider using **TypeScript** with **type-aware linting**.
+
+- Reference: [React + TypeScript Vite Template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts)
+- Tooling: [`typescript-eslint`](https://typescript-eslint.io)
+
+---
+
+## 🚀 Getting Started
+
+To run the project locally:
+
+```bash
+npm install
+npm run dev
